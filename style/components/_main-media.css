@@ -1,0 +1,73 @@
+@media (max-width: 767px)
+{
+   main .phone{
+       display: none;
+   }
+
+   .phone,
+   .banner-info{
+       width: 100%;
+   }
+
+   main .banner, .button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+  }
+
+  main div .banner-info h1 {
+    font-size: 32px;
+    padding-bottom: 10px;
+  } 
+
+  main div .banner-info .text{
+    padding-bottom: 10px;
+  }
+
+  main div .banner-info p {
+    font-size: 16px;
+    padding: 0;
+  }
+
+  main div .banner-info a{
+  font-size: 15px;
+    padding: 5px 5px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+  }
+
+  main .services-section .services-wrapper{
+    margin: 30px 5px;
+  }
+
+  main .services-section .flex-item {
+    width: 50%;
+    margin: 10px 0;
+  }
+
+  main .services-section P{
+    margin: 0 10px;
+  }
+
+}
+@media (max-width: 480px){
+    main .services-section .flex-item {
+        width: 100%;
+    }
+}
+
+main .shopping-section{
+margin: 10px 10px;
+}
+
+main .shopping-section .image-cart{
+    display:none;
+}
+
+main .shopping-section .shopping-name,
+.image-cart,
+.shopping-info {
+  width: 100%;
+}

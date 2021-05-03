@@ -1,0 +1,111 @@
+/*-------------------------MAIN-BANNER-------------------------------*/
+
+.conteiner {
+    max-width: 970px;
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  .phone,
+  .banner-info {
+    width: 50%;
+  }
+  
+  main .banner {
+    background: url(../../images/banner.png) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    padding: 30px 0 20px 0;
+    margin-bottom: 60px;
+  }
+  
+  main div .banner-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+  }
+  
+  main div .banner-info h1 {
+    font: var(--font-large);
+    padding-bottom: 40px;
+  }
+  
+  main div .banner-info p {
+    font: var(--font-medium);
+    padding-bottom: 40px;
+  }
+  
+  main div .banner-info a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font: var(--font-small);
+    color: white;
+    padding: 10px 10px;
+    width: 160px;
+    height: 40px;
+    background: #5094f2;
+    border-radius: 3px;
+  }
+  
+  main div .banner-info a img {
+    padding-right: 7px;
+  }
+  
+  /*-----------------MAIN-SERVICES-SECTION--------------*/
+  
+  main .services-section .services-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+  
+  main .services-section .flex-item {
+    text-align: center;
+    width: calc(100% / 3);
+  }
+  
+  main .services-section img {
+    padding-bottom: 30px;
+  }
+  
+  main .services-section h3 {
+    font: var(--font-small);
+    color: #95bdf7;
+    padding-bottom: 5px;
+  }
+  
+  main .services-section P {
+    color: #6f7173;
+  }
+  
+  /*-----------------MAIN-SHOPPING-SECTION------------------*/
+  main .shopping-section .shopping-wrapper {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 60px;
+  }
+  
+  main .shopping-section .shopping-name h2 {
+    font: var(--font-large);
+  }
+  
+  main .shopping-section .shopping-name,
+  .image-cart,
+  .shopping-info {
+    width: 50%;
+    color: #6f7173;
+  }
+  
+  main .shopping-section h3 {
+    font: var(--font-medium);
+    padding-bottom: 20px;
+  }
+  
+  main .shopping-info p {
+    line-height: 2.5;
+  }
+  

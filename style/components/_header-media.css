@@ -1,0 +1,28 @@
+@media (max-width: 767px){
+    
+    header nav menu{
+        display: block;
+        margin: 10px;
+    }
+    header nav menu li{
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 480px){
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header nav menu{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        margin: 10px 0;
+    }
+    header nav menu li{
+        padding: 3px 7px;
+     
+    }
+}

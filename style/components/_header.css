@@ -1,0 +1,32 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  header {
+    max-width: 970px;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header nav menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
+  
+  header nav menu li {
+    display: inline-block;
+    border-bottom: 3px solid transparent;
+    padding: 30px 20px;
+  }
+  
+  header nav menu li a {
+    text-decoration: none;
+    color: #6c6c6c;
+  }
+  
+  header nav menu li:hover {
+    border-bottom-color: #5094f2;
+  }
