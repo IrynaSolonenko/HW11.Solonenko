@@ -1,0 +1,22 @@
+@media (max-width:767px){
+    header .slogan h1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+    }
+}
+
+@media (max-width:480px){
+header{
+    width: 100%;
+}
+
+    header .slogan h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+}
