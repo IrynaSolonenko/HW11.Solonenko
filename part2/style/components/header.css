@@ -1,5 +1,6 @@
 header{
     height: 305px;
+    width: 100%;
     background: url(../../images/header-bac.png);
     background-repeat: no-repeat;
     background-size: cover;

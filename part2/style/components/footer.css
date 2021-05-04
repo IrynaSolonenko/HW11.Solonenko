@@ -40,3 +40,6 @@ footer .rows ul a{
 footer .rows li:not(:last-child){
     padding-right: 25px;
 }
+footer label{
+    display: none;
+}

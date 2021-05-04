@@ -32,3 +32,39 @@ footer .rows li:not(:last-child) {
     padding-right: 7px;
 }
 }
+
+@media (max-width:320px){
+    footer{
+     height: 100%; 
+     max-width: 100%;     
+    }
+    footer .rows ul{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
+
+
+/*@media (max-width:320px){
+footer label{
+    display: inline-block;
+    position: relative;
+}
+ .check{
+    display: none;
+}
+footer label input .check:checked + footer .rows{
+    visibility: visible;
+    position: absolute;
+}
+footer .rows ul{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+   top: 100%;
+  }
+}*/

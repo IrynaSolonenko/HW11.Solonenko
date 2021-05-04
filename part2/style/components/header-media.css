@@ -1,4 +1,7 @@
 @media (max-width:767px){
+    header{
+        width: 100%;
+    }
     header .slogan h1{
         width: 100%;
         display: flex;
@@ -9,10 +12,6 @@
 }
 
 @media (max-width:480px){
-header{
-    width: 100%;
-}
-
     header .slogan h1{
     width: 100%;
     display: flex;
