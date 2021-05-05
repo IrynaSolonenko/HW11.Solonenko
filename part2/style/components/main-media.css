@@ -7,12 +7,18 @@
 
 @media (max-width:480px){
     main{
-    margin: 0 10px;
+    margin: 20px 10px 0 0;
 }
+    main h2, h3{
+        font-size: 20px;
+    }
+    main .info-part1, main .info-part2{
+        font-size: 14px;
+    } 
 }
 
 @media (max-width:320px){
     main{
-    margin: 0 10px;
+        margin: 20px 10px 0 0;
 }
 }
